@@ -1,4 +1,1 @@
-source "https://supermarket.getchef.com"
-
-cookbook 'mongodb'
-cookbook 'build-essential'
+cookbook 'build-essential', git: 'git://github.com/opscode-cookbooks/build-essential.git'
